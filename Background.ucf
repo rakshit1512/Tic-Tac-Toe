@@ -1,0 +1,15 @@
+net "RST" loc="K13";
+net "clk" loc="T9";
+net "RGB(0)" loc="R12";
+net "RGB(1)" loc="T12";
+net "RGB(2)" loc="R11";
+net "H_SYNC" loc="R9";
+net "V_SYNC" loc="T10";
+net "row(2)" loc="K14";
+net "row(1)" loc="J13";
+net "row(0)" loc="J14";
+net "col(2)" loc="H13";
+net "col(1)" loc="H14";
+net "col(0)" loc="G12";
+net "TEMP" loc="F12";
+NET "RST" CLOCK_DEDICATED_ROUTE = FALSE;
