@@ -98,4 +98,4 @@ if((track(2)='1' and track(4)='1' and track(6)='1'))then
 	end if;
 end if;
 end process;
-endBehavioral;
+end Behavioral;
