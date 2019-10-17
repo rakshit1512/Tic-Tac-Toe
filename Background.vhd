@@ -127,9 +127,6 @@ b1: Background_display port map(RST,clk25,check2,win2,win4,TEMP,track,who,HP,VP,
 --TRACKING
 l1:track2 port map(row,col,TEMP,RST,track,who);
 
---GAME LOGIC
---l2: gamelogic portmap(TEMP,track,HP,VP,RGB,who);
-
 --END GAME
 l3: endgame port map(track,who,RST,check1,win1,win3);
 
@@ -143,4 +140,4 @@ begin
     win4<=win3;
   end if;
 end process;
-endBehavioral;
+end Behavioral;
