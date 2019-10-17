@@ -320,4 +320,4 @@ begin
 		end if;
 end if;
 end process;
-endBehavioral;
+end Behavioral;
